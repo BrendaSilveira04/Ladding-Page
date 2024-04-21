@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: 'Cinzel';
+    src: url(../fontes/Cinzel-Bold.ttf);
+}
+.apresenta{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.logo{
+    width:200px;
+    height:200px;
+    overflow: hidden;
+}
+.logo img{
+    width:100%;
+    height:100%;
+    filter: invert(47%) sepia(83%) saturate(2079%) hue-rotate(330deg) brightness(99%) contrast(104%);
+}
+.desc_logo{
+    margin-top: -2vh;
+    margin-bottom: -5vh;
+    height: 18vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.nameLoja{
+    font-size: 100px;
+    color: #FF564C;
+    font-family: 'Cinzel';
+    letter-spacing: 5px;
+}
+.valoresLoja{
+    color: #FF564C;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+}
+.bg_logo{
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(252,248,244,1) 14%, rgba(236,211,185,1) 60%, rgba(228,182,152,1) 100%, rgba(225,171,140,1) 100%, rgba(229,187,158,1)100%);
+}
+
+.header{
+    width: 100vw;
+    padding-top: 3vh;
+}
+.mov_direita{
+    float: right;
+}
+.navegadores{
+    background-color: transparent;
+    border: none;
+    width: 8vw;
+    font-size: large;
+}
+.navegadores:hover{
+    color: blue;
+}
