@@ -56,7 +56,8 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(252,248,244,1) 
     border: none;
     width: 8vw;
     font-size: large;
+    color: gray;
 }
 .navegadores:hover{
-    color: blue;
+    color: rgb(88, 88, 88);
 }
