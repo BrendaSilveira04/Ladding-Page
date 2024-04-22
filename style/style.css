@@ -100,11 +100,15 @@ nav{
 .actived{
     font-size: x-large;
 }
+.servicos{
+    display: flex;
+    justify-content: center;
+}
 .central{
     background-color: aqua;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px 8px;
+    grid-gap: 10vw 8vw;
     justify-content: center;
     height: 100vh;
     
