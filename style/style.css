@@ -10,43 +10,58 @@ body{
     justify-content: center;
 }
 .logo{
-    width:170px;
-    height:170px;
+    width:80px;
+    height:80px;
     overflow: hidden;
 }
 .logo img{
     width:100%;
     height:100%;
-    filter: invert(47%) sepia(83%) saturate(2079%) hue-rotate(330deg) brightness(99%) contrast(104%);
+    filter: invert(15%) sepia(24%) saturate(1736%) hue-rotate(333deg) brightness(92%) contrast(86%);
 }
 .desc_logo{
-    margin-top: -5vh;
+    margin-top: -6vh;
     margin-bottom: -6.5vh;
-    height: 18vh;
+    height: 15vh;
     display: flex;
     text-align: center;
     align-items: center;
     text-shadow: 2px 3px 6px #8b8b8b;
 }
 .nameLoja{
-    font-size: 70px;
-    color: #FF564C;
+    font-size: 30px;
+    color: #4d2a1c;
     font-family: 'Cinzel';
     letter-spacing: 5px;
 }
 .valoresLoja{
-    color: #FF564C;
-    font-size: 16px;
+    color: #4d2a1c;
+    font-size: 12px;
     letter-spacing: 2.5px;
 }
 .inicio{
-    background-color: rgba(173, 173, 173, 0,5);
     height: 100vh;
-    
+    background-image: url(../images/fundo_petzoo.jpg_1714190919254.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position-x: center;
+    background-position-y: center;
+}
+.historia{
+    height: 100vh;
+    background-image: url(../images/snapedit_1714193309495.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position-x: center;
+    background-position-y: center;
 }
 .servicos{
-    background-color: rgba(173, 173, 173, 0,5);
     height: 100vh;
+    background-image: url(../images/fundo_gatitos.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 header{
@@ -67,28 +82,28 @@ nav{
     background-color: transparent;
     width: 10vw;
     font-size: 'Cinzel';
-    color: rgb(151, 151, 151);
-    border-right: 1px solid gray;
+    color: #4d2a1c;
+    border-right: 1px solid #4d2a1c;
     font-size: large;
     text-decoration: none;
     text-align: center;
 }
 .navegadores:hover{
-    color: rgb(71, 71, 71);
+    color: #000000;
 }
 .navegadores:last-child{
     border: none;
 }
 .mov_esquerda{
     transform: translateY(-50%); 
-    top: 50%;
+    top: 20%;
     position: relative;
 }
 .sombra{
     background-color: transparent;
-    width: 10vw;
+    width: 5vw;
     height: 3vh;
-    margin-top: -5vh;
+    margin-top: -3vh;
 }
 .image_sombra{
     width: 100%;
@@ -114,12 +129,34 @@ nav{
     
     
 }
+.central_sobre{
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10vw 8vw;
+    justify-content: center;
+    justify-items: end;
+    height: 100vh;
+    
+    
+}
 .quadrado{
     background-color: rgba(146, 146, 146, 0.1);
     width: 20vw;
     height: 70vh;
     transform: translateY(-50%); 
     top: 50%;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0px 5px 8px #c56f59;
+}
+.quadrado_sobre{
+    background-color: rgba(146, 146, 146, 0.1);
+    width: 45vw;
+    height: 80vh;
+    transform: translateY(-50%); 
+    top: 50%;
+    right: 5%;
     position: relative;
     border-radius: 50px;
     box-shadow: 0px 5px 8px #c56f59;
