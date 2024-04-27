@@ -47,7 +47,7 @@ body{
     background-position-x: center;
     background-position-y: center;
 }
-.historia{
+.sobre{
     height: 100vh;
     background-image: url(../images/snapedit_1714193309495.png);
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body{
 }
 .servicos{
     height: 100vh;
-    background-image: url(../images/fundo_gatitos.png);
+    background-image: url(../images/snapedit_1714259213404.png);
     background-repeat: no-repeat;
     background-size: 100vw;
     background-position-x: center;
