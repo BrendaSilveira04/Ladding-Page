@@ -40,13 +40,12 @@ body{
     letter-spacing: 2.5px;
 }
 .inicio{
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(252,248,244,1) 14%, rgba(236,211,185,1) 60%, rgba(228,182,152,1) 100%, rgba(225,171,140,1) 100%, rgba(229,187,158,1)100%);
+    background-color: rgba(173, 173, 173, 0,5);
     height: 100vh;
+    
 }
 .servicos{
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(252,248,244,1) 14%, rgba(236,211,185,1) 60%, rgba(228,182,152,1) 100%, rgba(225,171,140,1) 100%, rgba(229,187,158,1)100%);
+    background-color: rgba(173, 173, 173, 0,5);
     height: 100vh;
 }
 
@@ -55,6 +54,7 @@ header{
     padding-top: 3vh;
     justify-content: center;
     position: fixed;
+    
 }
 nav{
     display: flex;
@@ -112,6 +112,7 @@ nav{
     justify-content: center;
     height: 100vh;
     
+    
 }
 .quadrado{
     background-color: rgba(146, 146, 146, 0.1);
@@ -123,3 +124,13 @@ nav{
     border-radius: 50px;
     box-shadow: 0px 5px 8px #c56f59;
 }
+
+.produtos{
+    display: flex;
+    justify-content: center;
+}
+.planos{
+    display: flex;
+    justify-content: center; 
+}
+
