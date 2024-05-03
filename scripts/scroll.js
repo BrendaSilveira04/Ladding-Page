@@ -1,4 +1,4 @@
-let links = document.querySelectorAll('.navegadores');
+let links = document.querySelectorAll('.nav');
 let sections = document.querySelectorAll('.section');
 
 window.addEventListener('scroll',() =>{
@@ -12,7 +12,7 @@ window.addEventListener('scroll',() =>{
             links.forEach(link => {
                 link.classList.remove('actived');
                 
-                document.querySelector(`header nav a[href*='${idSection}']`).classList.add('actived');
+                document.querySelector(`header nav a[href*='${idSection}'] p`).classList.add('actived');
             })
         }
 
